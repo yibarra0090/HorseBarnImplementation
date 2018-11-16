@@ -25,4 +25,11 @@ public class HorseBarn {
             }
         }
     }
+    public String toString(){
+        String total = "";
+        for (int i =0 ; i < this.spaces.length; i++){
+            total += this.spaces[i] + " ";
+        }
+        return total;
+    }
 }
