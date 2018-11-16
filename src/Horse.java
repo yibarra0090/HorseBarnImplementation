@@ -1,4 +1,4 @@
 public interface Horse {
     String getName();
-    String getWeight();
+    double getWeight();
 }

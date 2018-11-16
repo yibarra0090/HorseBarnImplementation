@@ -1,8 +1,8 @@
 public class Mustang implements Horse{
     private String name;
-    private int weight;
+    private double weight;
 
-    public Mustang(String name, int weight){
+    public Mustang(String name, double weight){
         this.name = name;
         this.weight = weight;
     }
@@ -11,7 +11,7 @@ public class Mustang implements Horse{
         return this.name;
     }
 
-    public int getWeight(){
+    public double getWeight(){
         return this.weight;
     }
 }
